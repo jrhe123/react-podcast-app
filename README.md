@@ -1,11 +1,22 @@
 # Node Express React Redux App
 
 
+Live Demo:
+
+https://react-node-redux-podcast.herokuapp.com/#
+
+
 1. Node APIs: 		"nodemon"
 
 > express pods --hogan
 
 > npm install superagent	--save
+
+> Ex: API urls
+
+> localhost:3000/search/roy
+
+> localhost:3000/feed?url=http://feeds.feedburner.com/fhumeditation
 
 
 2. React:  		"webpack -w"

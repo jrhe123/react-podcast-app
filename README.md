@@ -12,10 +12,9 @@ https://react-node-redux-podcast.herokuapp.com/#
 
 > npm install superagent	--save
 
-> ex:
-	localhost:3000/search/roy
-> ex:	
-	localhost:3000/feed?url=http://feeds.feedburner.com/fhumeditation
+> localhost:3000/search/roy
+
+> localhost:3000/feed?url=http://feeds.feedburner.com/fhumeditation
 
 
 2. React:  		"webpack -w"

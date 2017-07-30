@@ -14,6 +14,7 @@ https://react-node-redux-podcast.herokuapp.com/#
 
 ex:
 	localhost:3000/search/roy
+ex:	
 	localhost:3000/feed?url=http://feeds.feedburner.com/fhumeditation
 
 

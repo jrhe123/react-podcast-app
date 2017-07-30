@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eclipse - Documentation</title>
+    <meta name="description" content="Mobile Template">
+    <style>
+    	html {
+    		font-family: "Roboto", sans-serif;
+    		line-height: 1.5;
+    	}
+    	body {
+    		height: 100%;
+    		padding-left: 1.5rem;
+    		padding-right: 1.5rem;
+    	}
+    	section {
+    		width: 94%;
+    		margin: 0 2% 2rem;
+    		clear: both;
+    	}
+    	h2 {
+    		font-size: 3.3rem;
+    		font-weight: 400;
+    		margin: 0 0 1.75rem;
+    	}
+    	h4 {
+    		font-weight: 300;
+    		font-size: 2rem;
+    		margin: 1rem 0;
+    		color: #2196F3;
+    	}
+    	h5 {
+    		font-weight: 300;
+    		font-size: 1.5rem;
+    		margin: 0 0 1rem 0;
+    		padding-top: 1rem;
+    	}
+    	pre {
+    		white-space: pre;          
+			white-space: pre-wrap;      
+			white-space: pre-line;    
+			white-space: -pre-wrap;   
+			white-space: -o-pre-wrap;  
+			white-space: -moz-pre-wrap; 
+			white-space: -hp-pre-wrap; 
+			word-wrap: break-word;     
+    		word-wrap: normal;
+    		overflow: auto;
+			font-size: 13px;
+		    padding: 0 20px;
+	   	    width: 100%;
+			background-color: #eee;
+    	}
+    	a {
+    		text-decoration: none;
+    	}
+    	a, a:focus, a:hover, a:active, a:visited {
+    		color: #000;
+    	}
+    	p  a {
+    		color: #2196F3 !important;
+    	}
+    	ul ul {
+    		padding-left: 1.5rem;
+    	}
+    	img {
+    		margin-bottom: 3rem !important;
+    	}
+    	.menu {
+    		width: 25%;
+    		position: fixed;
+    		top: 0;
+    		left: 0;
+    		padding-left: 1.5rem;
+    	}
+    	.menu ul {
+    		list-style-type: none;
+    		padding: 0;
+    	}
+    	.menu li {
+    		padding-bottom: 0.5rem;
+    	}
+    	.menu ul ul {
+    		padding: 0.5rem 0 0 1rem;
+    	}
+    	.main {
+    		width: 75%;
+    		float: right;
+    	}
+		.left {
+			width: 24%;
+			margin: 0 1%;
+			float: left;
+		}
+		.right {
+			width: 72%;
+			margin: 0 1%;
+			float: left;
+		}
+		.center-align {
+			text-align: center;
+		}
+		h5#n-one {
+    		padding-top: 0;
+		}
+		.link {
+			color: #2196F3;
+		}
+    </style>
+  </head>
+  <body>
+  	<div class="menu">
+  		<h4>Menu</h4>
+	  	<ul>
+	  		<li><a href="#one"><strong>1.</strong> What is It</a></li>
+	  		<li><a href="#two"><strong>2.</strong> Folders Structure</a></li>
+	  		<li><a href="#three"><strong>3.</strong> Layout Structure</a>
+	  			<ul>
+					<li><a href="#t-one"><strong>3.1</strong> Header</a></li>
+					<li><a href="#t-two"><strong>3.2</strong> Sidebar</a></li>
+					<li><a href="#t-three"><strong>3.3</strong> Footer</a></li>
+				</ul>
+	  		</li>
+	  		<li><a href="#four"><strong>4.</strong> Components</a>
+	  			<ul>
+					<li><a href="#f-one"><strong>4.1</strong> Badges</a></li>
+					<li><a href="#f-two"><strong>4.2</strong> Buttons</a></li>
+					<li><a href="#f-three"><strong>4.3</strong> Collapsible</a></li>
+					<li><a href="#f-four"><strong>4.4</strong> Dialogs</a></li>
+					<li><a href="#f-five"><strong>4.5</strong> Tabs</a></li>
+					<li><a href="#f-six"><strong>4.6</strong> Slider</a></li>
+					<li><a href="#f-seven"><strong>4.7</strong> Form Elements</a></li>
+					<li><a href="#f-eight"><strong>4.8</strong> Filter</a></li>
+					<li><a href="#f-nine"><strong>4.9</strong> Masonry</a></li>
+				</ul>
+	  		</li>
+	  		<li><a href="#five"><strong>5.</strong> Animations</a></li>
+	  		<li><a href="#six"><strong>6.</strong> Custom Javascript</a></li>
+	  		<li><a href="#seven"><strong>7.</strong> Credits</a></li>
+	  	</ul>
+	</div>
+	<div class="main">
+	<h2>Eclipse - Documentation</h2>
+	<section id="one">
+		<h4>1. What is It</h4>
+		<p>Eclipse is a mobile template created to develop Web Sites and Web App. Thanks to a fluid layout, it suits to any type of mobile device. Moreover, with prebuilt classes it will be easier to design new pages or modify the ones already created. <br>
+			The template uses the Google Framework Material Design Light (MDL) in order to enforce the Material Design Guidelines.<br>
+			The page transition effect the user’s experience similar to an app.</p>
+	</section>
+	<section id="two">
+		<h4>2. Folders Structure</h4>
+		<div class="right">
+			<p>Below you can find a brief summary of the folder structure:</p>
+			<ul>
+			<li>Inside the folder named “app” are listed the template files, split into html template and ajax navigation (for more expert users).</li>
+			<li>Inside the folder named “css” are listed the stylsheets:</li>
+				<ul>
+				<li>keyframes.css contains the animation's rules. Do not directly modify these files or the new updates may overwrote your work;</li>
+				<li>materialize.min.css contains the framework's rules. Do not directly modify these files or the new updates may overwrote your work;</li>
+				<li>swiper.css contains the slider's rules. Do not directly modify these files or the new updates may overwrote your work;</li>
+				<li>swipebox.min.css contains the lightbox's rules. Do not directly modify these files or the new updates may overwrote your work;</li>
+				<li>style.css contains the custom’s rules. Here, you can add your own rules in order to modify or overwrite the previous files.</li>
+				</ul>
+			<li>Inside the folder named "js" are listed the javascript rules:</li>
+				<ul>
+					<li>jquery-2.1.0.min.js is a framework javascript. Do not directly modify these files;</li>
+					<li>jquery.swipebox.min.js contains the lightbox's javascript rules. Do not directly modify these files;</li>
+					<li>jquery.smoothState.min.js contains the routing's javascript rules. Do not directly modify these files;</li>
+					<li>materialize.min.js contains the framework's javascript rules. Do not directly modify these files;</li>
+					<li>swiper.min.js contains the slider's javascript rules. Do not directly modify these files;</li>
+					<li>jquery.mixitup.min.js contains the images filter's javascript rules. Do not directly modify these files;</li>
+					<li>masonry.min.js contains the masonry's grid javascript rules. Do not directly modify these files;</li>
+					<li>chart.min.js contains the chart's javascript rules. Do not directly modify these files;</li>
+					<li>function.js contains the custom’s rules. Here, you can add your own rules in order to modify the template or overwrite the previous files.</li>
+				</ul>
+			<li>Inside the folder named "img" are listed the images used by the template.</li>
+			</ul>
+		</div>
+	</section>
+	<section id="three">
+		<h4>3. Layout Structure</h4>
+		<p>The file .html are structured in two sections</p>
+		<ul>
+			<li>The "header" tag contains the button to open the sidebar;</li>
+			<li>The "main" contains the contents and the page’s main structure. This is what basically changes from page to page;</li>
+			<li>Pages start with the sidebars, then the toolbar, the content and the footer.</li>
+		</ul>
+		<h5 id="t-one">Header</h5>
+			<p>Eclipse comes with a top left fixed header</p>
+			
+		<h5 id="t-two">Sidebar</h5>
+		<p>The Sidebar contains the main navigation of the website. To open the Sidebar just click the top-left button in the header. 
+		
+		<h5 id="t-three">Footer</h5>
+		<p>To create a more website like layout, Eclipse comes with a easy to add footer. Listed below, a simple snipset of code that show how to create a more complex footer:</p>
+		<pre>
+			<code>
+				&ltfooter class="page-footer"&gt
+				  &ltdiv class="container"&gt
+				    &ltdiv class="row"&gt
+				      &ltdiv class="col s12"&gt
+				        &lth5 class="white-text"&gtFooter Content&lt/h5&gt
+				        &ltp class="grey-text text-lighten-4"&gtYou can use rows and columns here to organize your footer content.&lt/p&gt
+				      &lt/div&gt
+				      &ltdiv class="col s12"&gt
+				        &lth5 class="white-text"&gtLinks&lt/h5&gt
+				        &ltul&gt
+				          &ltli&gt&lta class="grey-text text-lighten-3" href="#!"&gtLink 1&lt/a&gt&lt/li&gt
+				          &ltli&gt&lta class="grey-text text-lighten-3" href="#!"&gtLink 2&lt/a&gt&lt/li&gt
+				          &ltli&gt&lta class="grey-text text-lighten-3" href="#!"&gtLink 3&lt/a&gt&lt/li&gt
+				          &ltli&gt&lta class="grey-text text-lighten-3" href="#!"&gtLink 4&lt/a&gt&lt/li&gt
+				        &lt/ul&gt
+				      &lt/div&gt
+				    &lt/div&gt
+				  &lt/div&gt
+				  &ltdiv class="footer-copyright"&gt
+				    &ltdiv class="container"&gt
+				    © 2014 Copyright Text
+				    &lta class="grey-text text-lighten-4 right" href="#!"&gtMore Links&lt/a&gt
+				    &lt/div&gt
+				  &lt/div&gt
+				&lt/footer&gt
+			</code>
+		</pre>
+	</section>
+	<section id="four">
+		<h4>4. Components</h4>
+		<p>Eclipse comes with tons of customizable components:</p>
+		<h5 id="f-one">Badges</h5>
+		<p>Badges can notify you that there are new or unread messages or notifications.</p>
+		<pre>
+			<code>
+				&ltspan class="badge blue"&gt5&lt/span&gt
+			</code>
+		</pre>
+
+		<h5 id="f-two">Buttons</h5>
+		<p>There are 3 main button types described in material design. The raised button is a standard button that signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant for very important functions. Flat buttons are usually used within elements that already have depth like cards or modals.</p>
+		<p><strong>Raised</strong></p>
+		<pre>
+			<code>
+				&lta class="waves-effect waves-light btn"&gtStuff&lt/a&gt
+			</code>
+		</pre>
+		<p><strong>Floating</strong></p>
+		<pre>
+			<code>
+				&lta class="btn-floating btn-large waves-effect waves-light red"&gtStuff&lt/a&gt
+			</code>
+		</pre>
+		<p><strong>Flat</strong></p>
+		<pre>
+			<code>
+				&lta class="waves-effect waves-teal btn-flat"&gtButton&lt/a&gt
+			</code>
+		</pre>
+		<p><strong>Large</strong></p>
+		<pre>
+			<code>
+				&lta class="waves-effect waves-light btn-large"&gtButton&lt/a&gt
+			</code>
+		</pre>
+		<p><strong>Disabled</strong></p>
+		<pre>
+			<code>
+				&lta class="btn disabled"&gtButton&lt/a&gt
+			</code>
+		</pre>
+
+		<h5 id="f-three">Collapsible</h5>
+		<p>Collapsibles are accordion elements that expand when clicked on. They allow you to hide content that is not immediately relevant to the user.</p>
+		<p><strong>Collapsible</strong></p>
+		<pre>
+			<code>
+				&ltul class="collapsible" data-collapsible="accordion"&gt
+					&ltli&gt
+					  &ltdiv class="collapsible-header"&gtFirst&lt/div&gt
+					  &ltdiv class="collapsible-body"&gt&ltp&gtLorem ipsum dolor sit amet.&lt/p&gt&lt/div&gt
+					&lt/li&gt
+					&ltli&gt
+					  &ltdiv class="collapsible-header"&gtSecond&lt/div&gt
+					  &ltdiv class="collapsible-body"&gt&ltp&gtLorem ipsum dolor sit amet.&lt/p&gt&lt/div&gt
+					&lt/li&gt
+					&ltli&gt
+					  &ltdiv class="collapsible-header"&gtThird&lt/div&gt
+					  &ltdiv class="collapsible-body"&gt&ltp&gtLorem ipsum dolor sit amet.&lt/p&gt&lt/div&gt
+					&lt/li&gt
+				&lt/ul&gt
+			</code>
+		</pre>
+		<p><strong>Popout</strong></p>
+		<pre>
+			<code>
+				&ltul class="collapsible popout" data-collapsible="accordion"&gt&lt/ul&gt
+			</code>
+		</pre>
+		<p><strong>Preselect</strong></p>
+		<pre>
+			<code>
+				&ltdiv class="collapsible-header active"&gtPreselected&lt/div&gt
+			</code>
+		</pre>
+
+		<h5 id="f-four">Dialogs</h5>
+		<p>Dialogs are content that are not original visible on a page but show up with extra information if needed. The transitions should make the appearance of the dialog make sense and not jarring to the user.</p>
+		<p><strong>Toast</strong></p>
+		<pre>
+			<code>
+				&lta class="btn" onclick="Materialize.toast('I am a toast', 4000)"&gtToast!&lt/a&gt
+			</code>
+		</pre>
+		<p><strong>Modal</strong></p>
+		<pre>
+			<code>
+				&lt!-- Modal Trigger --&gt
+				&lta class="waves-effect waves-light btn modal-trigger" href="#modal1"&gtModal&lt/a&gt
+				&lt!-- Modal Structure --&gt
+				&ltdiv id="modal1" class="modal"&gt
+					&ltdiv class="modal-content"&gt
+					  	&lth4&gtModal Header&lt/h4&gt
+					  	&ltp&gtA bunch of text&lt/p&gt
+					&lt/div&gt
+					&ltdiv class="modal-footer"&gt
+				  		&lta href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"&gtAgree&lt/a&gt
+					&lt/div&gt
+				&lt/div&gt
+			</code>
+		</pre>
+		<p><strong>Modal with fixed footer</strong></p>
+		<pre>
+			<code>
+				&lt!-- Modal Trigger --&gt
+				&lta class="modal-trigger waves-effect waves-light btn" href="#modal1"&gtModal&lt/a&gt
+				&lt!-- Modal Structure --&gt
+				&ltdiv id="modal1" class="modal modal-fixed-footer"&gt
+					&ltdiv class="modal-content"&gt
+					  &lth4&gtModal Header&lt/h4&gt
+					  &ltp&gtA bunch of text&lt/p&gt
+					&lt/div&gt
+					&ltdiv class="modal-footer"&gt
+					  &lta href="#!" class="modal-action modal-close waves-effect waves-green btn-flat "&gtAgree&lt/a&gt
+					&lt/div&gt
+				&lt/div&gt
+			</code>
+		</pre>
+		<p><strong>Bottom Sheet</strong></p>
+		<pre>
+			<code>
+				&lt!-- Modal Trigger --&gt
+				&lta class="waves-effect waves-light btn modal-trigger" href="#modal1"&gtModal&lt/a&gt
+
+				&lt!-- Modal Structure --&gt
+				&ltdiv id="modal1" class="modal bottom-sheet"&gt
+					&ltdiv class="modal-content"&gt
+					  &lth4&gtModal Header&lt/h4&gt
+					  &ltp&gtA bunch of text&lt/p&gt
+					&lt/div&gt
+					&ltdiv class="modal-footer"&gt
+					  &lta href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"&gtAgree&lt/a&gt
+					&lt/div&gt
+				&lt/div&gt
+			</code>
+		</pre>
+
+		<h5 id="f-five">Tabs</h5>
+		<p>The tabs structure consists of an unordered list of tabs that have hashes corresponding to tab ids. Then when you click on each tab, only the container with the corresponding tab id will become visible. You can add the class .disabled to make a tab inaccessible.</p>
+		<pre>
+			<code>
+				&ltdiv class="row"&gt
+					&ltdiv class="col s12"&gt
+					  &ltul class="tabs"&gt
+					    &ltli class="tab col s3"&gt&lta href="#test1"&gtTest 1&lt/a&gt&lt/li&gt
+					    &ltli class="tab col s3"&gt&lta class="active" href="#test2"&gtTest 2&lt/a&gt&lt/li&gt
+					    &ltli class="tab col s3 disabled"&gt&lta href="#test3"&gtDisabled Tab&lt/a&gt&lt/li&gt
+					    &ltli class="tab col s3"&gt&lta href="#test4"&gtTest 4&lt/a&gt&lt/li&gt
+					  &lt/ul&gt
+					&lt/div&gt
+					&ltdiv id="test1" class="col s12"&gtTest 1&lt/div&gt
+					&ltdiv id="test2" class="col s12"&gtTest 2&lt/div&gt
+					&ltdiv id="test3" class="col s12"&gtTest 3&lt/div&gt
+					&ltdiv id="test4" class="col s12"&gtTest 4&lt/div&gt
+				&lt/div&gt
+			</code>
+		</pre>
+
+		<h5 id="f-six">Sliders</h5>
+		<p>The tabs structure consists of an unordered list of tabs that have hashes corresponding to tab ids. Then when you click on each tab, only the container with the corresponding tab id will become visible. You can add the class .disabled to make a tab inaccessible.</p>
+		<pre>
+			<code>
+				&ltdiv class="swiper-container"&gt
+				  &ltdiv class="swiper-wrapper"&gt
+				    &ltdiv class="swiper-slide"&gt
+				      &ltimg src="img/5.jpg" alt=""&gt
+				    &lt/div&gt
+				    &ltdiv class="swiper-slide"&gt
+				      &ltimg src="img/8.jpg" alt=""&gt
+				    &lt/div&gt
+				  &lt/div&gt
+				  &lt!-- Add Arrows --&gt
+				  &ltdiv class="swiper-button-next"&gt&lt/div&gt
+				  &ltdiv class="swiper-button-prev"&gt&lt/div&gt
+				  &lt!-- Add Pagination --&gt
+				  &ltdiv class="swiper-pagination"&gt&lt/div&gt
+				&lt/div&gt
+			</code>
+		</pre>
+
+		<h5 id="f-seven">Form Elements</h5>
+		<p>The tabs structure consists of an unordered list of tabs that have hashes corresponding to tab ids. Then when you click on each tab, only the container with the corresponding tab id will become visible. You can add the class .disabled to make a tab inaccessible.</p>
+		<p><strong>Input</strong></p>
+		<pre>
+			<code>
+				&ltdiv class="input-field"&gt
+				    &ltinput id="first_name" type="text" class="validate"&gt
+				    &ltlabel for="first_name"&gtFirst Name&lt/label&gt
+				&lt/div&gt
+			</code>
+		</pre>
+		<p><strong>Input with icon</strong></p>
+		<pre>
+			<code>
+				&ltdiv class="input-field"&gt
+				  &lti class="ion-social-twitter"&gt&lt/i&gt
+				  &ltinput id="icon_prefix" type="text" class="validate"&gt
+				  &ltlabel for="icon_prefix"&gtFavourite Social&lt/label&gt
+				&lt/div&gt
+			</code>
+		</pre>
+		<p><strong>TextArea</strong></p>
+		<pre>
+			<code>
+				&ltdiv class="input-field"&gt
+				  &lttextarea id="textarea1" class="materialize-textarea"&gt&lt/textarea&gt
+				  &ltlabel for="textarea1"&gtTextarea&lt/label&gt
+				&lt/div&gt
+			</code>
+		</pre>
+		<p><strong>Checkbox</strong></p>
+		<pre>
+			<code>
+				&ltp&gt
+				  &ltinput type="checkbox" id="test6" checked="checked" /&gt
+				  &ltlabel for="test6"&gtYellow&lt/label&gt
+				&lt/p&gt
+			</code>
+		</pre>
+		<p><strong>Select</strong></p>
+		<pre>
+			<code>
+				&ltlabel&gtBrowser Select&lt/label&gt
+				&ltselect class="browser-default"&gt
+					&ltoption value="" disabled selected&gtChoose your option&lt/option&gt
+					&ltoption value="1"&gtOption 1&lt/option&gt
+					&ltoption value="2"&gtOption 2&lt/option&gt
+					&ltoption value="3"&gtOption 3&lt/option&gt
+				&lt/select&gt
+			</code>
+		</pre>
+
+		<h5 id="f-eight">Filter</h5>
+		<p>Filters are a great feature for portfolio based websites.</p>
+		<pre>
+			<code>
+				&lt!-- Filters Controller --&gt
+				  &ltdiv class="controls"&gt
+				    &ltbutton id="ChangeLayout" class="left"&gtList&lt/button&gt
+				    &ltlabel&gtFilter:&lt/label&gt
+				    &ltbutton class="filter" data-filter="all"&gtAll&lt/button&gt
+				    &ltbutton class="filter" data-filter=".category-1"&gtArt&lt/button&gt
+				    &ltbutton class="filter" data-filter=".category-2"&gtInk&lt/button&gt
+				    &ltbutton class="filter" data-filter=".category-3"&gtPop&lt/button&gt
+				  &lt/div&gt
+				&lt!-- Filter Images --&gt
+				&ltdiv id="filter"&gt
+				    &ltsection id="image-filter"&gt
+				      &ltdiv class="wrap small-width"&gt
+				        &ltdiv data-pswp-uid="1" id="demo-gallery" class="demo-gallery"&gt
+				          &lta href="img/1.jpg" class="swipebox mix category-1 no-smoothState" title="This is dummy caption."&gt
+				            &ltimg src="img/1.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/2.jpg" class="swipebox mix category-1 no-smoothState" title="He who searches for meaning here will be sorely disappointed."&gt
+				            &ltimg src="img/2.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/3.jpg" class="swipebox mix category-2 no-smoothState" title="This is dummy caption."&gt
+				            &ltimg src="img/3.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/4.jpg" class="swipebox mix category-2 no-smoothState" title="He who searches for meaning here will be sorely disappointed."&gt
+				            &ltimg src="img/4.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/5.jpg" class="swipebox mix category-3 no-smoothState" title="My Caption"&gt
+				            &ltimg src="img/5.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/6.jpg" class="swipebox mix category-1 no-smoothState" title="This is dummy caption."&gt
+				            &ltimg src="img/6.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/7.jpg" class="swipebox mix category-1 no-smoothState" title="This is dummy caption."&gt
+				            &ltimg src="img/7.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/8.jpg" class="swipebox mix category-1 no-smoothState" title="He who searches for meaning here will be sorely disappointed."&gt
+				            &ltimg src="img/8.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/9.jpg" class="swipebox mix category-2 no-smoothState" title="This is dummy caption."&gt
+				            &ltimg src="img/9.jpg" alt="image"&gt
+				          &lt/a&gt
+				          &lta href="img/10.jpg" class="swipebox mix category-2 no-smoothState" title="He who searches for meaning here will be sorely disappointed."&gt
+				            &ltimg src="img/10.jpg" alt="image"&gt
+				          &lt/a&gt
+				        &lt/div&gt
+				      &lt/div&gt
+				    &lt/section&gt
+				&lt/div&gt
+			</code>
+		</pre>
+
+		<h5 id="f-nine">Masonry</h5>
+		<p>Masonry is a layout style made famous by Pinterest. MAsonry container should have the class "grid", inner item "grid-item"</p>
+		<pre>
+			<code>
+				&ltdiv class="grid"&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/1.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/1.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/v1.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/v1.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/2.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/2.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/3.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/3.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/v2.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/v2.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/v3.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/v3.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/4.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/4.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				    &ltdiv class="grid-item"&gt
+				      &lta href="img/5.jpg" class="swipebox no-smoothState" title="This is dummy caption."&gt
+				        &ltimg src="img/5.jpg" alt="image"&gt
+				      &lt/a&gt
+				    &lt/div&gt
+				 &lt/div&gt
+			</code>
+		</pre>
+	</section>
+	
+	<section id="five">
+		<h4>6. Animations</h4>
+		<p>Eclipse uses SmoothState for page routing/transitions. SmoothState.js is a jQuery plugin that progressively enhances page loads to give us control over page transitions. If the user's browser doesn't have the required features, smoothState.js fades into the background and never runs. smoothState.js provides hooks that can be used to choreograph how elements enter and exit the page during navigation. It uses the time the animations are running to fetch content via AJAX to inject into the page. SmoothState.js doesn't dictate how things on the page should be animated. It supports CSS animations, as well as JS animation libraries.<br>
+		The following transitions are prebuilt, so you just need to add the class:</p>
+		<ul>
+			<li>fadein</li>
+			<li>fadeinup</li>
+			<li>fadeindown</li>
+			<li>fadeinright</li>
+			<li>bouncein</li>
+		</ul>
+		<p>You can add a delay too:</p>
+		<ul>
+			<li>delay-1</li>
+			<li>delay-2</li>
+			<li>delay-3</li>
+			<li>delay-4</li>
+			<li>delay-5</li>
+			<li>delay-6</li>
+		</ul>
+	</section>
+
+	<section id="six">
+		<h4>6. Custom Javascript</h4>
+		<p>The routing to work uses ajax, so you need to recall every javascript code after page load. For doing so there is a function inside functions.js called "initiate_plugins", just rewrite your function inside it.<br>
+		If your not an expert use we suggest you to use the version of the template inside the html folder.<br>
+		The following conditions are available:</p>
+		<p>A jQuery selector specifying which anchors within the smoothState element should be bound.</p>
+		<pre>
+			<code>
+				$('#main').smoothState({ anchors: 'a' });
+			</code>
+		</pre>
+		<p>A jQuery selector specifying which forms within the smoothState element should be bound.</p>
+		<pre>
+			<code>
+				$('#main').smoothState({ forms: 'form' });
+			</code>
+		</pre>
+		<p>Controls whather or not form submission responses are preserved in the cache. If set to true, smoothState will store form responses in the cache. This should be set to false unless you understand how caching form results will affect your website's behaviour very well.</p>
+		<pre>
+			<code>
+				$('#main').smoothState({ allowFormCaching: false });
+			</code>
+		</pre>
+		<p>A jQuery selector specifying which elements within the smoothState element should be ignored. This includes both form and anchor elements.</p>
+		<pre>
+			<code>
+				$('#main').smoothState({ blacklist: '.no-smoothState' });
+			</code>
+		</pre>
+		<p>The number of pages to cache. smoothState.js can cache pages in memory, avoiding the user having to request pages more than once. Cached pages will load instantaneously.</p>
+		<pre>
+			<code>
+				$('#main').smoothState({ cacheLength: 0 });
+			</code>
+		</pre>
+		<p>More can be found on <a href="https://github.com/miguel-perez/smoothState.js/blob/master/README.md">GitHub</a></p>
+	</section>
+	<section id="seven">
+		<h4>7. Credits</h4>
+		<ul>
+			<li>jQuery</li>
+			<li>Materialize</li>
+			<li>MixItUp</li>
+			<li>Masonry</li>
+			<li>Swipebox</li>
+			<li>Swiper</li>
+			<li>SmoothState</li>
+			<li>Unsplash</li>
+		</ul>
+	</section>
+	</div>
+  </body>
+</html>
